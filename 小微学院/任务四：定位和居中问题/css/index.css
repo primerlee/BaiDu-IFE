@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    background: #ccc;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -100px;
+    overflow: hidden;
+}
+.box>div{
+    width: 100px;
+    height: 100px;
+    background: #fc0;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle1{
+    top: -50px;
+    left: -50px;
+}
+.circle2{
+    right: -50px;
+    bottom: -50px;
+}
