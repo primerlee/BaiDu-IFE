@@ -30,18 +30,18 @@ header h2{
     width: 110px;
     height: 61px;
     background: #d35e5f;
-    color: #fff;
     font-family: "Heiti TC";
     font-size: 12px;
+    color: #fff;
     padding: 45px 0 0 5px;
     box-sizing: border-box;
 }
 header p{
     float: right;
+    padding-top: 45px;
     font-family: "Heiti TC";
     font-size: 12px;
     color: #d45d5c;
-    padding-top: 45px;
 }
 /*section*/
 section{
@@ -56,7 +56,6 @@ section .topLeft{
 }
 section .topLeft img{
     vertical-align: middle;
-
 }
 section .topLeft .leftMusk,
 section .topLeft .rightMusk{
@@ -114,18 +113,18 @@ section .topLeft ul li dl dd{
     line-height: 16px;
 }
 section .topLeft ul li:first-child dd{
-    color: #767777;
     font-family: "Songti TC";
+    color: #767777;
 }
 section .topLeft ul li:nth-child(2) dd{
-    color: #231815;
     font-family: "Microsoft Sans Serif";
+    color: #231815;
     opacity: 0.7;
 }
 section .topLeft ul li:last-child dd{
-    color: #cd4a48;
     font-family: "Microsoft Sans Serif";
     font-style: italic;
+    color: #cd4a48;
     opacity: 0.7;
 }
 
@@ -137,11 +136,11 @@ section .topRight{
     border-top: 2px solid #cc8091;
 }
 section .topRight h3{
+    font-family: "Microsoft Sans Serif";
     font-size: 24px;
     color: #000;
-    font-family: "Microsoft Sans Serif";
-    text-decoration: underline;
     line-height: 40px;
+    text-decoration: underline;
 }
 section .topRight h3 span{
     font-size: 36px;
@@ -232,6 +231,10 @@ section .topRight .css span:last-child{
     width: 458px;
     height: 275px;
 }
+.bottomRight .imageBox img{
+    width: 458px;
+    height: 275px;
+}
 .bottomRight .imageBox div{
     position: absolute;
     left: 0;
@@ -270,7 +273,7 @@ section .topRight .css span:last-child{
 }
 .bottomRight .yellowBox ul{
     list-style-type: square;
-    padding: 20px 20px 20px 40px;
+    padding: 15px 20px 15px 40px;
 }
 .bottomRight .yellowBox ul li{
     font-size: 16px;
@@ -291,20 +294,73 @@ section .topRight .css span:last-child{
     background: #d35e5f;
     float: left;
     color: #fff;
+    box-sizing: border-box;
+    position: relative;
 }
+.bottomRight .yellowBox .red b{
+    font-family: "Microsoft Sans Serif";
+    font-size: 110px;
+    color: #fff;
+    position: absolute;
+    left: 5px;
+    top: 25px;
+}
+.bottomRight .yellowBox .red b:after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 86px;
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.bottomRight .yellowBox .red span:nth-of-type(1){
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    font-family: "Heiti SC";
+    font-size: 21px;
+    line-height: 24px;
+    font-style: italic;
+}
+.bottomRight .yellowBox .red span:nth-of-type(2) {
+    position: absolute;
+    left: 90px;
+    top: 100px;
+    font-family: "Heiti SC";
+    font-size: 12px;
+    padding-bottom: 6px;
+}
+
 .bottomRight .yellowBox .text{
     padding: 20px;
     width: 199px;
     height: 160px;
     box-sizing: border-box;
     float: left;
+    font-family: "Heiti SC";
     font-size: 14px;
     color: #5a5b5b;
-    font-family: "Heiti SC";
     font-style: italic;
     line-height: 16px;
+    position: relative;
+    text-indent: 2em;
 }
-
+.bottomRight .yellowBox .text span{
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: "Heiti SC";
+    position: absolute;
+}
+.bottomRight .yellowBox .text span:nth-of-type(1){
+    left: -20px;
+    top: 42px;
+}
+.bottomRight .yellowBox .text span:nth-of-type(2){
+    right: 20px;
+    bottom: 5px;
+}
 /*footer*/
 footer{
     margin-top: 25px;
@@ -314,9 +370,10 @@ footer{
     text-align: right;
 }
 footer p{
+    font-family: "Heiti SC";
     font-size: 12px;
     color: #d45d5c;
-    font-family: "Heiti SC";
+    padding-top: 2px;
 }
 
 
