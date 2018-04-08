@@ -1,0 +1,161 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearFix:after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #999;
+}
+a {
+    color: #999;
+    text-decoration: none;
+}
+a:hover{
+    color: #666;
+}
+.wrap{
+    padding: 0 50px;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background: #298abe;
+    color: #fff;
+    line-height: 55px;
+}
+header a{
+    color: #fff;
+}
+header .logo a{
+    font-size: 34px;
+    display: block;
+}
+header .logo a:hover{
+    color: #fff;
+}
+header .login{
+    position: relative;
+}
+header .login input{
+    height: 26px;
+    width: 300px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    text-indent: 30px;
+    margin-right: 15px;
+    position: relative;
+}
+header .login .inputBG {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    color: #999;
+    font-size: 15px;
+}
+header .login a{
+    font-size: 12px;
+}
+header .login a span{
+    padding: 0 5px;
+}
+
+/*内容区域*/
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+/*左侧导航区域*/
+.nav{
+    width: 260px;
+    background: #2b2e3c;
+    height: 1211px;
+    color: #6e7e96;
+}
+.nav a{
+    color: #6e7e96;
+}
+.nav .user-info{
+    height: 130px;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+
+.nav .user-info .user-head a{
+    display: inline-block;
+    padding: 3px;
+    border: 3px solid #b9babe;
+    border-radius: 50%;
+    float: left;
+}
+.nav .user-info .user-head div{
+    background: #b9babe;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.nav .user-info .user-head .name{
+    display: inline-block;
+    color: #b9babe;
+    float: left;
+    font-size: 16px;
+    padding: 17px;
+}
+
+.nav .user-info>div:nth-child(2){
+    border-right: 1px solid #6e7e96;
+    margin: 20px 0;
+    padding-right: 30px;
+}
+
+.nav .user-info>div:nth-child(3){
+    margin: 20px 0;
+    padding-left: 30px;
+}
+.nav ul{
+
+}
+.nav ul li{
+    padding-left: 40px;
+    height: 50px;
+    line-height: 50px;
+}
+.nav ul li a{
+    display: block;
+}
+.nav ul li a span{
+    margin-right: 10px;
+}
+.nav ul li:hover{
+    background: #373d4c;
+}
+.nav ul li:first-child{
+    height: 200px;
+    background: #373d4c;
+}
+.nav ul li:first-child ul{}
+.nav ul li:first-child ul li{
+    padding-left: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+.nav ul li:first-child ul li:nth-child(3){
+    margin-top: 55px;
+}
+.nav .white{
+    color: #bbb;
+}
+/*右侧显示区域*/
+.content{}
