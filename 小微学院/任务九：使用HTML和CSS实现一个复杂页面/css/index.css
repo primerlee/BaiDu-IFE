@@ -367,9 +367,104 @@ header .login a span{
     width: 348px;
     border: 1px solid #ccc;
 }
+/*第二个盒子*/
 .content .wrap .second-item{
     margin-right: 0;
 }
+.content .wrap .second-item h4{
+    line-height: 2;
+    margin-top: 10px;
+}
+.content .wrap .second-item .title{
+    border-bottom: 1px solid #ccc;
+    margin: 0 30px;
+}
+.content .wrap .second-item .title p{
+    color: #333;
+    line-height: 2;
+}
+.content .wrap .second-item .price{
+    margin-left: 30px;;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+.content .wrap .second-item .price p{
+    float: left;
+    width: 25%;
+    line-height: 1.6;
+    padding-left: 10px;
+}
+.content .wrap .second-item .price p span{
+    color: #333;
+    font-weight: bold;
+}
+.content .wrap .second-item .price p:first-child{
+    border-right: 1px solid #ccc;
+}
+.content .wrap .second-item .describe{
+    margin:0 30px;
+    border-bottom: 1px solid #ccc;
+    height: 150px;
+}
+.content .wrap .second-item .describe p{
+    color: #333;
+}
+.content .wrap .second-item .confirm{
+    margin: 5px 30px;
+}
+.content .wrap .second-item .confirm button{
+    width: 50px;
+    height: 25px;
+    color: #fff;
+    background: #3d8dbf;
+    border: none;
+    border-radius: 3px;
+}
+/*日历*/
+.content .wrap .calendar{}
+.content .wrap .calendar .wrap{
+    margin:10px 20px;
+    padding: 0;
+}
+.content .wrap .calendar .wrap .date{
+    margin-bottom: 10px;
+}
+.content .wrap .calendar .wrap .date select{
+    width: 24%;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+.content .wrap .calendar .wrap .week{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #3d8dbf;
+}
+.content .wrap .calendar .wrap .week ul{
+    overflow: hidden;
+    padding: 10px 0;
+}
+.content .wrap .calendar .wrap .week ul li{
+    float: left;
+    width: 14%;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+.content .wrap .calendar .wrap .calendar-detail{}
+.content .wrap .calendar .wrap .calendar-detail ul{
+    overflow: hidden;
+}
+.content .wrap .calendar .wrap .calendar-detail ul li{
+    text-align: center;
+    float: left;
+    width: 14%;
+    padding: 10px 0;
+
+
+}
+/*表格*/
 .content .wrap .table{
     margin-right: 0;
     overflow: auto;
