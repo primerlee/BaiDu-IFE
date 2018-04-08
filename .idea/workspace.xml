@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="157" column="61" lean-forward="false" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
+            <state relative-caret-position="111">
+              <caret line="222" column="91" lean-forward="true" selection-start-line="222" selection-start-column="91" selection-end-line="222" selection-end-column="91" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -37,20 +37,20 @@
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#label#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="312" column="19" lean-forward="false" selection-start-line="312" selection-start-column="19" selection-end-line="312" selection-end-column="19" />
+            <state relative-caret-position="394">
+              <caret line="400" column="12" lean-forward="false" selection-start-line="400" selection-start-column="12" selection-end-line="400" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/小微学院/任务八：响应式网格（栅格化）布局/css/index.css" />
         <option value="$PROJECT_DIR$/小微学院/任务九：使用HTML/CSS实现一个复杂页面/index.css" />
         <option value="$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/index.css" />
-        <option value="$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/index.html" />
         <option value="$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/css/index.css" />
+        <option value="$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/index.html" />
       </list>
     </option>
   </component>
@@ -102,10 +102,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="640" />
-    <option name="y" value="23" />
-    <option name="width" value="640" />
-    <option name="height" value="732" />
+    <option name="y" value="389" />
+    <option name="width" value="1280" />
+    <option name="height" value="367" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -212,7 +211,7 @@
       <workItem from="1523098491814" duration="3038000" />
       <workItem from="1523102940376" duration="1032000" />
       <workItem from="1523157833317" duration="3241000" />
-      <workItem from="1523161558764" duration="18036000" />
+      <workItem from="1523161558764" duration="20545000" />
     </task>
     <task id="LOCAL-00001" summary="任务二完成，并且对任务一的结构进行了优化">
       <created>1522995740780</created>
@@ -312,11 +311,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523165179680</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="任务九部分完成">
+      <created>1523180683224</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1523180683224</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60387000" />
+    <option name="totallyTimeSpent" value="62896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="732" extended-state="6" />
@@ -387,7 +393,8 @@
     <MESSAGE value="任务七整体效果完成，并精简了部分代码" />
     <MESSAGE value="任务七完成" />
     <MESSAGE value="任务八完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="任务八完成" />
+    <MESSAGE value="任务九部分完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="任务九部分完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -746,10 +753,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="400" column="12" lean-forward="false" selection-start-line="400" selection-start-column="12" selection-end-line="400" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="157" column="61" lean-forward="false" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
+        <state relative-caret-position="111">
+          <caret line="222" column="91" lean-forward="true" selection-start-line="222" selection-start-column="91" selection-end-line="222" selection-end-column="91" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -761,19 +776,11 @@
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#label#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="312" column="19" lean-forward="false" selection-start-line="312" selection-start-column="19" selection-end-line="312" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>

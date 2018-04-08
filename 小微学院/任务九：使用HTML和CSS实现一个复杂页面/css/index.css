@@ -372,4 +372,49 @@ header .login a span{
 }
 .content .wrap .table{
     margin-right: 0;
+    overflow: auto;
+    color: #666;
+}
+.content .wrap .table .wrap{
+    padding: 20px 40px;
+
+}
+.content .wrap .table  table{
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.content .wrap .table table th{
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+.content .wrap .table table tr{
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.content .wrap .table table tr:hover{
+    background: #ccc;
+}
+.content .wrap .table table td{
+    border: 1px solid #ccc;
+    width: 40px;
+}
+.content .wrap .table table tbody tr td:last-child{
+    text-align: left;
+    padding-left: 20px;
+}
+.content .wrap .table table tbody tr td:last-child .progress{
+    display: inline-block;
+    height: 5px;
+    width: 200px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.content .wrap .table table tbody tr td:last-child .progress .bg{
+    width: 70%;
+    display: block;
+    height: 5px;
+    background: #e65153;
 }
