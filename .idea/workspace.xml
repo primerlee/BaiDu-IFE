@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a915553-3fdb-4fb3-a376-c5a31281c486" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/css/index.css" afterPath="$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/css/index.css" />
       <change beforePath="$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/index.html" afterPath="$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="889">
-              <caret line="169" column="29" lean-forward="false" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="195" column="14" lean-forward="true" selection-start-line="195" selection-start-column="14" selection-end-line="195" selection-end-column="14" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -35,9 +34,9 @@
                 <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#article#0;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -45,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6154">
-              <caret line="274" column="16" lean-forward="false" selection-start-line="274" selection-start-column="16" selection-end-line="274" selection-end-column="16" />
+            <state relative-caret-position="13520">
+              <caret line="520" column="22" lean-forward="true" selection-start-line="520" selection-start-column="22" selection-end-line="520" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -97,8 +96,8 @@
         <option value="$PROJECT_DIR$/小微学院/任务五：零基础HTML及CSS编码（二）/css/index.css" />
         <option value="$PROJECT_DIR$/小微学院/任务六：通过HTML及CSS模拟报纸排版/index.html" />
         <option value="$PROJECT_DIR$/小微学院/任务六：通过HTML及CSS模拟报纸排版/css/index.css" />
-        <option value="$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/index.html" />
         <option value="$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/css/index.css" />
+        <option value="$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/index.html" />
       </list>
     </option>
   </component>
@@ -150,13 +149,6 @@
               <item name="ife" type="462c0819:PsiDirectoryNode" />
               <item name="小微学院" type="462c0819:PsiDirectoryNode" />
               <item name="任务七：实现常见的技术产品官网的页面架构及样式布局" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ife" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ife" type="462c0819:PsiDirectoryNode" />
-              <item name="小微学院" type="462c0819:PsiDirectoryNode" />
-              <item name="任务七：实现常见的技术产品官网的页面架构及样式布局" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +207,7 @@
       <workItem from="1523098491814" duration="3038000" />
       <workItem from="1523102940376" duration="1032000" />
       <workItem from="1523157833317" duration="3241000" />
-      <workItem from="1523161558764" duration="1827000" />
+      <workItem from="1523161558764" duration="1927000" />
     </task>
     <task id="LOCAL-00001" summary="任务二完成，并且对任务一的结构进行了优化">
       <created>1522995740780</created>
@@ -294,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523160807887</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="任务七整体效果完成，并精简了部分代码">
+      <created>1523163441100</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1523163441100</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44178000" />
+    <option name="totallyTimeSpent" value="44278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="733" extended-state="6" />
@@ -366,7 +365,8 @@
     <MESSAGE value="任务六完成，并且对细节进行了优化" />
     <MESSAGE value="任务七部分完成" />
     <MESSAGE value="任务七整体效果完成，续进行细节调整和代码优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="任务七整体效果完成，续进行细节调整和代码优化" />
+    <MESSAGE value="任务七整体效果完成，并精简了部分代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="任务七整体效果完成，并精简了部分代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -386,9 +386,9 @@
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#article#0;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -416,9 +416,9 @@
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#article#0;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -461,9 +461,9 @@
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#article#0;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -521,9 +521,9 @@
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#article#0;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -713,10 +713,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13520">
+          <caret line="520" column="22" lean-forward="true" selection-start-line="520" selection-start-column="22" selection-end-line="520" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="889">
-          <caret line="169" column="29" lean-forward="false" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="29" />
+        <state relative-caret-position="323">
+          <caret line="195" column="14" lean-forward="true" selection-start-line="195" selection-start-column="14" selection-end-line="195" selection-end-column="14" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -726,20 +734,12 @@
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#article#0;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6154">
-          <caret line="274" column="16" lean-forward="false" selection-start-line="274" selection-start-column="16" selection-end-line="274" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
