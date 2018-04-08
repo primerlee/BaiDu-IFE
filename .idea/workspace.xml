@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a915553-3fdb-4fb3-a376-c5a31281c486" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/css/index.css" afterPath="$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/index.html" afterPath="$PROJECT_DIR$/小微学院/任务九：使用HTML和CSS实现一个复杂页面/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -211,7 +209,7 @@
       <workItem from="1523098491814" duration="3038000" />
       <workItem from="1523102940376" duration="1032000" />
       <workItem from="1523157833317" duration="3241000" />
-      <workItem from="1523161558764" duration="20545000" />
+      <workItem from="1523161558764" duration="20588000" />
     </task>
     <task id="LOCAL-00001" summary="任务二完成，并且对任务一的结构进行了优化">
       <created>1522995740780</created>
@@ -318,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523180683224</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="任务九部分完成，好累啊，感觉又完不成目标任务了">
+      <created>1523183277950</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1523183277950</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62896000" />
+    <option name="totallyTimeSpent" value="62939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="732" extended-state="6" />
@@ -394,7 +399,8 @@
     <MESSAGE value="任务七完成" />
     <MESSAGE value="任务八完成" />
     <MESSAGE value="任务九部分完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="任务九部分完成" />
+    <MESSAGE value="任务九部分完成，好累啊，感觉又完不成目标任务了" />
+    <option name="LAST_COMMIT_MESSAGE" value="任务九部分完成，好累啊，感觉又完不成目标任务了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
