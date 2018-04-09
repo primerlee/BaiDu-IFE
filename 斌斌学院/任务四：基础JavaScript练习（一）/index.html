@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>任务四：基础JavaScript练习（一）</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 400px;
+            margin: 100px auto;
+            height: 75px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .container input {
+            float: left;
+            width: 150px;
+            height: 25px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+
+        .container button {
+            border: 1px solid #ccc;
+            width: 50px;
+            height: 25px;
+        }
+
+        .container .add-group {
+            float: left;
+        }
+
+        .container .remove-group {
+            float: right;
+        }
+
+        .container .show-panel {
+            clear: both;
+            padding-top: 10px;
+        }
+
+        .container .show-panel span {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: red;
+            line-height: 40px;
+            text-align: center;
+            color: #fff;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <input type="text" id="input">
+    <div class="add-group">
+        <button id="add-left">左侧入</button>
+        <button id="add-right">右侧入</button>
+    </div>
+    <div class="remove-group">
+        <button id="remove-left">左侧出</button>
+        <button id="remove-right">右侧出</button>
+    </div>
+    <div class="show-panel">
+    </div>
+</div>
+<script>
+    var oInput = document.querySelector("#input");
+    var oAddLeft = document.querySelector("#add-left");
+    var oAddRight = document.querySelector("#add-right");
+    var oRemoveLeft = document.querySelector("#remove-left");
+    var oRemoveRight = document.querySelector("#remove-right");
+    var oShowPanel = document.querySelector(".show-panel");
+
+    // 确保只能输入数字
+    oInput.onkeyup=function () {
+      this.value = this.value.replace(/[^\d]/g,"");
+    };
+
+    oAddLeft.onclick = function () {
+        var oSpan = document.createElement("span");
+        oSpan.innerText = oInput.value;
+        oInput.value = "";
+        oInput.focus();
+        oShowPanel.insertBefore(oSpan, oShowPanel.firstChild);
+    };
+    oAddRight.onclick = function () {
+        var oSpan = document.createElement("span");
+        oSpan.innerText = oInput.value;
+        oInput.value = "";
+        oInput.focus();
+        oShowPanel.appendChild(oSpan);
+    };
+
+    oRemoveLeft.onclick = function () {
+        var confirmed = confirm("是否确定要删除" + oShowPanel.firstElementChild.innerHTML + "?");
+        if (confirmed) {
+            oShowPanel.removeChild(oShowPanel.firstElementChild);
+        }
+    };
+    oRemoveRight.onclick = function () {
+        var confirmed = confirm("是否确定要删除" + oShowPanel.lastElementChild.innerHTML + "?");
+        if (confirmed) {
+            oShowPanel.removeChild(oShowPanel.lastElementChild);
+        }
+    };
+
+
+</script>
+</body>
+</html>
