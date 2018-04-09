@@ -1,10 +1,12 @@
-.fl{
+.fl {
     float: left;
 }
-.fr{
+
+.fr {
     float: right;
 }
-.clearFix:after{
+
+.clearFix:after {
     content: "";
     height: 0;
     line-height: 0;
@@ -12,42 +14,52 @@
     display: block;
     clear: both;
 }
+
 body {
     font-family: sans-serif;
     font-size: 12px;
     color: #999;
 }
+
 a {
     color: #999;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #666;
 }
-.wrap{
+
+.wrap {
     padding: 0 50px;
 }
-header{
+
+header {
     width: 100%;
     height: 55px;
     background: #298abe;
     color: #fff;
     line-height: 55px;
 }
-header a{
+
+header a {
     color: #fff;
 }
-header .logo a{
+
+header .logo a {
     font-size: 34px;
     display: block;
 }
-header .logo a:hover{
+
+header .logo a:hover {
     color: #fff;
 }
-header .login{
+
+header .login {
     position: relative;
 }
-header .login input{
+
+header .login input {
     height: 26px;
     width: 300px;
     border-radius: 13px;
@@ -57,6 +69,7 @@ header .login input{
     margin-right: 15px;
     position: relative;
 }
+
 header .login .inputBG {
     position: absolute;
     left: 10px;
@@ -64,130 +77,155 @@ header .login .inputBG {
     color: #999;
     font-size: 15px;
 }
-header .login a{
+
+header .login a {
     font-size: 12px;
 }
-header .login a span{
+
+header .login a span {
     padding: 0 5px;
 }
 
 /*内容区域*/
-.container{
+.container {
     width: 1280px;
     margin: 0 auto;
     height: 1211px;
 }
+
 /*左侧导航区域*/
-.nav{
+.nav {
     width: 260px;
     background: #2b2e3c;
     color: #6e7e96;
     height: 100%;
 }
-.nav a{
+
+.nav a {
     color: #6e7e96;
 }
+
 /*左侧顶部用户信息区域*/
-.nav .user-info{
+.nav .user-info {
     height: 130px;
     padding-left: 50px;
     padding-top: 20px;
 }
 
-.nav .user-info .user-head a{
+.nav .user-info .user-head a {
     display: inline-block;
     padding: 3px;
     border: 3px solid #b9babe;
     border-radius: 50%;
     float: left;
 }
-.nav .user-info .user-head div{
+
+.nav .user-info .user-head div {
     background: #b9babe;
     width: 38px;
     height: 38px;
     border-radius: 50%;
 }
-.nav .user-info .user-head .name{
+
+.nav .user-info .user-head .name {
     display: inline-block;
     color: #b9babe;
     float: left;
     font-size: 16px;
     padding: 17px;
 }
+
 /*收藏和粉丝区域*/
-.nav .user-info>div:nth-child(2){
+.nav .user-info > div:nth-child(2) {
     border-right: 1px solid #6e7e96;
     margin: 20px 0;
     padding-right: 30px;
 }
 
-.nav .user-info>div:nth-child(3){
+.nav .user-info > div:nth-child(3) {
     margin: 20px 0;
     padding-left: 30px;
 }
+
 /*导航列表区域*/
-.nav ul li{
+.nav ul li {
     padding-left: 50px;
     height: 50px;
     line-height: 50px;
 }
-.nav ul li a{
+
+.nav ul li a {
     display: block;
 }
-.nav ul li a span{
+
+.nav ul li a span {
     margin-right: 10px;
 }
-.nav ul li:hover{
+
+.nav ul li:hover {
     background: #373d4c;
 }
-.nav ul li:first-child{
+
+.nav ul li:first-child {
     height: 200px;
     background: #373d4c;
 }
-.nav ul li:first-child ul{}
-.nav ul li:first-child ul li{
+
+.nav ul li:first-child ul {
+}
+
+.nav ul li:first-child ul li {
     padding-left: 20px;
     height: 30px;
     line-height: 30px;
 }
-.nav ul li:first-child ul li:nth-child(3){
+
+.nav ul li:first-child ul li:nth-child(3) {
     margin-top: 55px;
 }
-.nav .white{
+
+.nav .white {
     color: #bbb;
 }
+
 /*右侧显示区域*/
-.content{
+.content {
     width: 1020px;
     background: #eee;
     height: 100%;
 }
 
-.content .bread{
+.content .bread {
     padding-left: 20px;
     height: 32px;
     line-height: 32px;
 }
-.content .bread span{
+
+.content .bread span {
     margin: 0 10px;
 }
-.content .wrap{
+
+.content .wrap {
     padding: 20px 60px;
 }
-.content .wrap>div{
+
+.content .wrap > div {
     background: #fff;
 }
+
 /*第一栏*/
-.content .wrap .query{
+.content .wrap .query {
     height: 60px;
     border: 1px solid #ccc;
     padding: 15px 0;
 }
-.content .wrap .query .item{
+
+.content .wrap .query .item {
     float: left;
     height: 60px;
 }
-.content .wrap .query .item>div{
+
+.content .wrap .query .item > div {
     height: 10px;
 }
 
@@ -195,42 +233,46 @@ header .login a span{
     width: 190px;
     text-align: center;
 }
-.content .wrap .query .item:first-child select{
+
+.content .wrap .query .item:first-child select {
     width: 70px;
 }
-.content .wrap .query .item:nth-child(2){
+
+.content .wrap .query .item:nth-child(2) {
     width: 220px;
 }
 
-.content .wrap .query .item:nth-child(2) select{
+.content .wrap .query .item:nth-child(2) select {
     width: 120px;
 }
 
-.content .wrap .query .item:nth-child(3){
+.content .wrap .query .item:nth-child(3) {
     width: 320px;
 }
-.content .wrap .query .item:nth-child(3) select{
+
+.content .wrap .query .item:nth-child(3) select {
     width: 70px;
 }
+
 .content .wrap .query .item:nth-child(3) select.people {
     width: 120px;
 }
-.content .wrap .query .item:nth-child(3) input{
+
+.content .wrap .query .item:nth-child(3) input {
     width: 120px;
     padding: 0;
     box-sizing: border-box;
 }
 
 .content .wrap .query .item select,
-.content .wrap .query .item input
-{
+.content .wrap .query .item input {
     border: 1px solid #ccc;
     outline: none;
     height: 25px;
     margin-left: 15px;
 }
 
-.content .wrap .query .item button{
+.content .wrap .query .item button {
     width: 50px;
     height: 25px;
     line-height: 25px;
@@ -241,12 +283,14 @@ header .login a span{
     border-radius: 3px;
     margin: 17px;
 }
+
 /*第二栏*/
-.content .wrap .time{
+.content .wrap .time {
     margin-top: 20px;
     background: #eee;
 }
-.content .wrap .time div{
+
+.content .wrap .time div {
     float: left;
     width: 105px;
     height: 65px;
@@ -258,42 +302,50 @@ header .login a span{
     padding-top: 15px;
     color: #666;
 }
+
 .content .wrap .time div p {
     color: #938e8c;
     font-size: 16px;
     margin-top: 5px;
 }
-.content .wrap .time div p span{
+
+.content .wrap .time div p span {
     color: #e65153;
     font-size: 22px;
 }
-.content .wrap .time div:nth-child(2){
+
+.content .wrap .time div:nth-child(2) {
     border-top: 3px solid #3d8dbf;
 }
+
 .content .wrap .time div:last-child {
     margin-right: 0;
     line-height: 65px;
     font-size: 14px;
     padding-top: 0;
 }
+
 .content .wrap .time div.left,
-.content .wrap .time div.right{
+.content .wrap .time div.right {
     width: 50px;
     line-height: 65px;
     font-size: 24px;
     padding-top: 0;
 }
+
 /*统计栏*/
-.content .wrap .count{
+.content .wrap .count {
     margin-top: 20px;
     background: #eee;
 }
-.content .wrap .count h4{
+
+.content .wrap .count h4 {
     font-size: 14px;
     line-height: 2;
     color: #666;
 }
-.content .wrap .count>div{
+
+.content .wrap .count > div {
     float: left;
     width: 200px;
     height: 70px;
@@ -304,47 +356,57 @@ header .login a span{
     overflow: hidden;
     padding: 15px;
 }
-.content .wrap .count div p{
+
+.content .wrap .count div p {
     line-height: 1.6;
     color: #666;
 }
-.content .wrap .count div p span{
+
+.content .wrap .count div p span {
     font-size: 8px;
     color: #938e8c;
 }
-.content .wrap .count div:last-child{
+
+.content .wrap .count div:last-child {
     margin-right: 0;
 }
 
-.content .wrap .count div>.small-box {
+.content .wrap .count div > .small-box {
     width: 60px;
     height: 40px;
     background: #49b19f;
 }
-.content .wrap .count>div{
+
+.content .wrap .count > div {
     border-left: 3px solid #49b19f;
 }
-.content .wrap .count>div:nth-child(2){
+
+.content .wrap .count > div:nth-child(2) {
     border-left: 3px solid #3d8dbf;
 }
-.content .wrap .count>div:nth-child(3){
+
+.content .wrap .count > div:nth-child(3) {
     border-left: 3px solid #cc4b3b;
 }
-.content .wrap .count>div:nth-child(4){
+
+.content .wrap .count > div:nth-child(4) {
     border-left: 3px solid #e0cc52;
 }
-.content .wrap .count>div:nth-child(2) .small-box{
+
+.content .wrap .count > div:nth-child(2) .small-box {
     background: #3d8dbf;
 }
-.content .wrap .count>div:nth-child(3) .small-box{
+
+.content .wrap .count > div:nth-child(3) .small-box {
     background: #cc4b3b;
 }
-.content .wrap .count>div:nth-child(4) .small-box{
+
+.content .wrap .count > div:nth-child(4) .small-box {
     background: #e0cc52;
 }
 
 /*大方块*/
-.content .wrap .box{
+.content .wrap .box {
     float: left;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -353,7 +415,8 @@ header .login a span{
     margin: 20px 20px 0 0;
 
 }
-.content .wrap .box h3{
+
+.content .wrap .box h3 {
     height: 39px;
     background: #f4f5f7;
     padding-left: 20px;
@@ -362,57 +425,136 @@ header .login a span{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 .content .wrap .second-item,
-.content .wrap .calendar{
+.content .wrap .calendar {
     width: 348px;
     border: 1px solid #ccc;
 }
+
+/*第一个盒子*/
+.first-item .wrap {
+    padding: 10px 20px;
+}
+
+.tab-box {
+    margin: 20px 0;
+}
+
+.tab-box input {
+    display: none;
+}
+
+.tab-box label {
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 2px;
+    background: #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.tab-content {
+    font-size: 14px;
+    height: 200px;
+    border: 1px solid #ccc;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+}
+
+.first-item .wrap .tab-box input:nth-of-type(1):checked ~ .tab-contents .tab-content:nth-of-type(1),
+.first-item .wrap .tab-box input:nth-of-type(2):checked ~ .tab-contents .tab-content:nth-of-type(2),
+.first-item .wrap .tab-box input:nth-of-type(3):checked ~ .tab-contents .tab-content:nth-of-type(3) {
+    display: block;
+    margin-top: -1px;
+}
+
+.first-item .wrap .tab-box input:nth-of-type(1):checked ~ .tab-box-label label:nth-of-type(1),
+.first-item .wrap .tab-box input:nth-of-type(2):checked ~ .tab-box-label label:nth-of-type(2),
+.first-item .wrap .tab-box input:nth-of-type(3):checked ~ .tab-box-label label:nth-of-type(3) {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.tab-content table {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.tab-content table tr {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.tab-content table tr td {
+    border: 1px solid #ccc;
+}
+
 /*第二个盒子*/
-.content .wrap .second-item{
+.content .wrap .second-item {
     margin-right: 0;
 }
-.content .wrap .second-item h4{
+
+.content .wrap .second-item h4 {
     line-height: 2;
     margin-top: 10px;
 }
-.content .wrap .second-item .title{
+
+.content .wrap .second-item .title {
     border-bottom: 1px solid #ccc;
     margin: 0 30px;
 }
-.content .wrap .second-item .title p{
+
+.content .wrap .second-item .title p {
     color: #333;
     line-height: 2;
 }
-.content .wrap .second-item .price{
+
+.content .wrap .second-item .price {
     margin-left: 30px;;
     border-bottom: 1px solid #ccc;
     overflow: hidden;
 }
-.content .wrap .second-item .price p{
+
+.content .wrap .second-item .price p {
     float: left;
     width: 25%;
     line-height: 1.6;
     padding-left: 10px;
 }
-.content .wrap .second-item .price p span{
+
+.content .wrap .second-item .price p span {
     color: #333;
     font-weight: bold;
 }
-.content .wrap .second-item .price p:first-child{
+
+.content .wrap .second-item .price p:first-child {
     border-right: 1px solid #ccc;
 }
-.content .wrap .second-item .describe{
-    margin:0 30px;
+
+.content .wrap .second-item .describe {
+    margin: 0 30px;
     border-bottom: 1px solid #ccc;
     height: 150px;
 }
-.content .wrap .second-item .describe p{
+
+.content .wrap .second-item .describe p {
     color: #333;
 }
-.content .wrap .second-item .confirm{
+
+.content .wrap .second-item .confirm {
     margin: 5px 30px;
 }
-.content .wrap .second-item .confirm button{
+
+.content .wrap .second-item .confirm button {
     width: 50px;
     height: 25px;
     color: #fff;
@@ -420,16 +562,21 @@ header .login a span{
     border: none;
     border-radius: 3px;
 }
+
 /*日历*/
-.content .wrap .calendar{}
-.content .wrap .calendar .wrap{
-    margin:10px 20px;
+.content .wrap .calendar {
+}
+
+.content .wrap .calendar .wrap {
+    margin: 10px 20px;
     padding: 0;
 }
-.content .wrap .calendar .wrap .date{
+
+.content .wrap .calendar .wrap .date {
     margin-bottom: 10px;
 }
-.content .wrap .calendar .wrap .date select{
+
+.content .wrap .calendar .wrap .date select {
     width: 24%;
     height: 20px;
     border: 1px solid #ccc;
@@ -437,69 +584,99 @@ header .login a span{
     padding: 0;
     margin: 0;
 }
-.content .wrap .calendar .wrap .week{
+
+.content .wrap .calendar .wrap .week {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #3d8dbf;
 }
-.content .wrap .calendar .wrap .week ul{
+
+.content .wrap .calendar .wrap .week ul {
     overflow: hidden;
     padding: 10px 0;
 }
-.content .wrap .calendar .wrap .week ul li{
+
+.content .wrap .calendar .wrap .week ul li {
     float: left;
     width: 14%;
     text-align: center;
     color: #333;
     font-size: 14px;
 }
-.content .wrap .calendar .wrap .calendar-detail{}
-.content .wrap .calendar .wrap .calendar-detail ul{
+
+.content .wrap .calendar .wrap .calendar-detail {
+    color: #333;
+}
+
+.content .wrap .calendar .wrap .calendar-detail ul {
     overflow: hidden;
 }
-.content .wrap .calendar .wrap .calendar-detail ul li{
+
+.content .wrap .calendar .wrap .calendar-detail ul li {
     text-align: center;
     float: left;
-    width: 14%;
+    width: 44px;
+    height: 44px;
+    box-sizing: border-box;
     padding: 10px 0;
-
-
 }
+
+.content .wrap .calendar .wrap .calendar-detail ul li.first-day {
+    margin-left: 176px;
+}
+
+.content .wrap .calendar .wrap .calendar-detail ul li.tapped {
+    border: 1px solid #e65153;
+}
+
+.content .wrap .calendar .wrap .calendar-detail ul li:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
 /*表格*/
-.content .wrap .table{
+.content .wrap .table {
     margin-right: 0;
     overflow: auto;
     color: #666;
 }
-.content .wrap .table .wrap{
+
+.content .wrap .table .wrap {
     padding: 20px 40px;
 
 }
-.content .wrap .table  table{
+
+.content .wrap .table table {
     border: 1px solid #ccc;
     width: 100%;
 }
-.content .wrap .table table th{
+
+.content .wrap .table table th {
     font-size: 14px;
     border: 1px solid #ccc;
 }
-.content .wrap .table table tr{
+
+.content .wrap .table table tr {
     height: 24px;
     line-height: 24px;
     text-align: center;
     cursor: pointer;
 }
-.content .wrap .table table tr:hover{
+
+.content .wrap .table table tr:hover {
     background: #ccc;
 }
-.content .wrap .table table td{
+
+.content .wrap .table table td {
     border: 1px solid #ccc;
     width: 40px;
 }
-.content .wrap .table table tbody tr td:last-child{
+
+.content .wrap .table table tbody tr td:last-child {
     text-align: left;
     padding-left: 20px;
 }
-.content .wrap .table table tbody tr td:last-child .progress{
+
+.content .wrap .table table tbody tr td:last-child .progress {
     display: inline-block;
     height: 5px;
     width: 200px;
@@ -507,7 +684,8 @@ header .login a span{
     border-radius: 3px;
     margin-left: 20px;
 }
-.content .wrap .table table tbody tr td:last-child .progress .bg{
+
+.content .wrap .table table tbody tr td:last-child .progress .bg {
     width: 70%;
     display: block;
     height: 5px;
