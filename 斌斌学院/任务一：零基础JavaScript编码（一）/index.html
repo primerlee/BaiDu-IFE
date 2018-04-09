@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>任务一：零基础JavaScript编码（一）</title>
+</head>
+<body>
+<label>请输入北京今天的空气质量：<input type="text" id="aqi-input"></label>
+<button id="button">确认填写</button>
+
+<div>您输入的值是：<span id="aqi-display">尚无输入</span></div>
+<script>
+    // 函数的自调用
+    (function () {
+        //获取到按钮
+        var oBtn = document.getElementById("button");
+        // 获取到input输入框
+        var oInput = document.getElementById("aqi-input");
+        // 获取到显示区域
+        var oDisplay = document.getElementById("aqi-display");
+
+        // 给按钮绑定点击时间
+        oBtn.addEventListener("click",function () {
+            // 按钮点击之后将input框输入的值赋值给显示区域显示出来
+            oDisplay.innerText = oInput.value;
+            // 赋值完成后将input框的内容清空，并且保持焦点状态，提升体验
+            oInput.value="";
+            oInput.focus();
+        } ,false);
+    })();
+</script>
+</body>
+</html>

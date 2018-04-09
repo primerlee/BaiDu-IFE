@@ -20,13 +20,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/小微学院/任务十二：学习CSS 3的新特性/index.html">
+        <entry file="file://$PROJECT_DIR$/斌斌学院/任务一：零基础JavaScript编码（一）/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-              <folding>
-                <element signature="n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="359">
+              <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -82,6 +80,7 @@
         <option value="$PROJECT_DIR$/小微学院/任务十一：移动Web页面布局实践/index.html" />
         <option value="$PROJECT_DIR$/小微学院/任务十二：学习CSS 3的新特性/index.html" />
         <option value="$PROJECT_DIR$/小微学院/任务十二：学习CSS 3的新特性/css/index.css" />
+        <option value="$PROJECT_DIR$/斌斌学院/任务一：零基础JavaScript编码（一）/index.html" />
       </list>
     </option>
   </component>
@@ -91,7 +90,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="640" />
     <option name="y" value="23" />
     <option name="width" value="640" />
     <option name="height" value="732" />
@@ -124,13 +124,13 @@
             <path>
               <item name="ife" type="b2602c69:ProjectViewProjectNode" />
               <item name="ife" type="462c0819:PsiDirectoryNode" />
-              <item name="小微学院" type="462c0819:PsiDirectoryNode" />
+              <item name="斌斌学院" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ife" type="b2602c69:ProjectViewProjectNode" />
               <item name="ife" type="462c0819:PsiDirectoryNode" />
-              <item name="小微学院" type="462c0819:PsiDirectoryNode" />
-              <item name="任务十二：学习CSS 3的新特性" type="462c0819:PsiDirectoryNode" />
+              <item name="斌斌学院" type="462c0819:PsiDirectoryNode" />
+              <item name="任务一：零基础JavaScript编码（一）" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +200,7 @@
       <workItem from="1523186454988" duration="288000" />
       <workItem from="1523186968624" duration="2456000" />
       <workItem from="1523238628606" duration="10955000" />
-      <workItem from="1523261362892" duration="4813000" />
+      <workItem from="1523261362892" duration="5486000" />
     </task>
     <task id="LOCAL-00001" summary="任务二完成，并且对任务一的结构进行了优化">
       <created>1522995740780</created>
@@ -349,14 +349,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523255762196</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="任务十二基本完成 轮播图还需要继续完善">
+      <created>1523266770904</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1523266770904</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83182000" />
+    <option name="totallyTimeSpent" value="83855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
+    <frame x="640" y="23" width="640" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23984376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -449,18 +456,14 @@
     <MESSAGE value="任务九完成" />
     <MESSAGE value="任务十完成" />
     <MESSAGE value="任务十一完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="任务十一完成" />
+    <MESSAGE value="任务十二基本完成 轮播图还需要继续完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="任务十二基本完成 轮播图还需要继续完善" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/images/icon-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/images/icon-4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -782,6 +785,14 @@
           <folding>
             <element signature="n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/斌斌学院/任务一：零基础JavaScript编码（一）/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
