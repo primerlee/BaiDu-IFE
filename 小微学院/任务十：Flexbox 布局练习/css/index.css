@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    border: 1px solid #f00;
+    margin: 20px;
+}
+.box:first-child{
+    height: 120px;
+}
+.box:nth-child(2){
+    height: 100px;
+}
+.box:nth-child(3){
+    height: 40px;
+}
+.box:last-child{
+    height: 200px;
+    border-color: #00f;
+}
+@media screen and (max-width: 640px){
+    .parent{
+        align-items: flex-start;
+    }
+    .box:last-child{
+        order: -1;
+    }
+}
