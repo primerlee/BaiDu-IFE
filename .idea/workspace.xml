@@ -20,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/斌斌学院/任务二：零基础JavaScript编码（二）/index.html">
+        <entry file="file://$PROJECT_DIR$/斌斌学院/任务三：零基础JavaScript编码（三）/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            <state relative-caret-position="353">
+              <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -82,6 +82,7 @@
         <option value="$PROJECT_DIR$/小微学院/任务十二：学习CSS 3的新特性/css/index.css" />
         <option value="$PROJECT_DIR$/斌斌学院/任务一：零基础JavaScript编码（一）/index.html" />
         <option value="$PROJECT_DIR$/斌斌学院/任务二：零基础JavaScript编码（二）/index.html" />
+        <option value="$PROJECT_DIR$/斌斌学院/任务三：零基础JavaScript编码（三）/index.html" />
       </list>
     </option>
   </component>
@@ -130,13 +131,7 @@
               <item name="ife" type="b2602c69:ProjectViewProjectNode" />
               <item name="ife" type="462c0819:PsiDirectoryNode" />
               <item name="斌斌学院" type="462c0819:PsiDirectoryNode" />
-              <item name="任务一：零基础JavaScript编码（一）" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ife" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ife" type="462c0819:PsiDirectoryNode" />
-              <item name="斌斌学院" type="462c0819:PsiDirectoryNode" />
-              <item name="任务二：零基础JavaScript编码（二）" type="462c0819:PsiDirectoryNode" />
+              <item name="任务三：零基础JavaScript编码（三）" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,7 +201,7 @@
       <workItem from="1523186454988" duration="288000" />
       <workItem from="1523186968624" duration="2456000" />
       <workItem from="1523238628606" duration="10955000" />
-      <workItem from="1523261362892" duration="7477000" />
+      <workItem from="1523261362892" duration="9880000" />
     </task>
     <task id="LOCAL-00001" summary="任务二完成，并且对任务一的结构进行了优化">
       <created>1522995740780</created>
@@ -369,17 +364,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523267438511</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="斌斌学院js学习任务二完成">
+      <created>1523269421303</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1523269421303</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85846000" />
+    <option name="totallyTimeSpent" value="88249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2390625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.478125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31239936" sideWeight="0.5059571" order="7" side_tool="true" content_ui="tabs" />
@@ -471,18 +473,14 @@
     <MESSAGE value="任务十一完成" />
     <MESSAGE value="任务十二基本完成 轮播图还需要继续完善" />
     <MESSAGE value="斌斌学院js学习任务一完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="斌斌学院js学习任务一完成" />
+    <MESSAGE value="斌斌学院js学习任务二完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="斌斌学院js学习任务二完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/images/icon-5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/小微学院/任务七：实现常见的技术产品官网的页面架构及样式布局/images/icon-7.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -807,8 +805,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/斌斌学院/任务二：零基础JavaScript编码（二）/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        <state relative-caret-position="442">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/斌斌学院/任务三：零基础JavaScript编码（三）/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
           <folding />
         </state>
       </provider>
