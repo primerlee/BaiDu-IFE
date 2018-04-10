@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>任务五：基础JavaScript练习（二）</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 400px;
+            margin: 100px auto;
+            max-height: 260px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .container input {
+            float: left;
+            width: 150px;
+            height: 25px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+
+        .container button {
+            border: 1px solid #ccc;
+            width: 50px;
+            height: 25px;
+        }
+
+        .container .add-group {
+            float: left;
+        }
+
+        .container .remove-group {
+            float: right;
+        }
+
+        .container .show-panel {
+            clear: both;
+            padding-top: 10px;
+            max-height: 200px;
+        }
+
+        .container .show-panel span {
+            display: inline-block;
+            vertical-align: bottom;
+            width: 20px;
+            background: red;
+            color: red;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <label>
+        <input type="text" id="input">
+    </label>
+    <div class="add-group">
+        <button id="add-left">左侧入</button>
+        <button id="add-right">右侧入</button>
+    </div>
+    <div class="remove-group">
+        <button id="remove-left">左侧出</button>
+        <button id="remove-right">右侧出</button>
+    </div>
+    <div class="show-panel">
+    </div>
+
+    <button class="sort-btn">排序</button>
+</div>
+<script>
+    // 获取到各个元素
+    var oInput = document.querySelector("#input");
+    var oAddLeft = document.querySelector("#add-left");
+    var oAddRight = document.querySelector("#add-right");
+    var oRemoveLeft = document.querySelector("#remove-left");
+    var oRemoveRight = document.querySelector("#remove-right");
+    var oShowPanel = document.querySelector(".show-panel");
+    var oSort = document.querySelector(".sort-btn");
+
+    var minNum = 10;
+    var maxNum = 100;
+    var maxCount = 60;
+
+    //添加方法
+    function addNum(direction) {
+        if (oInput.value === "") {
+            alert("请输入非空的数字");
+        } else if (!isNaN(oInput.value)) {
+            if (oInput.value >= minNum && oInput.value <= maxNum) {
+                var oSpan = document.createElement("span");
+                oSpan.innerHTML = oInput.value;
+                oSpan.style.height=oInput.value*2+"px";
+                oInput.value = "";
+                oInput.focus();
+                if (oShowPanel.children.length>maxCount-1){
+                    alert("方块的最大容量为"+maxCount);
+                    return;
+                }
+                if (direction === "left") {
+                    oShowPanel.insertBefore(oSpan, oShowPanel.firstElementChild);
+                } else {
+                    oShowPanel.appendChild(oSpan);
+                }
+            } else {
+                alert("请输入值为10-100之间的正整数")
+            }
+        }
+        else {
+            alert("请输入正确格式的数字");
+        }
+    }
+
+    //删除方法
+    function removeNum(direction) {
+        if (oShowPanel.children.length > 0) {
+            if (direction === "left") {
+                var confirmed = confirm("您确定要删除" + oShowPanel.firstElementChild.innerHTML + "吗？");
+                if (confirmed) {
+                    oShowPanel.removeChild(oShowPanel.firstElementChild);
+                }
+            } else {
+                var confirmed2 = confirm("您确定要删除" + oShowPanel.lastElementChild.innerHTML + "吗？");
+                if (confirmed2) {
+                    oShowPanel.removeChild(oShowPanel.lastElementChild);
+                }
+            }
+        }
+    }
+
+    // 对应的点击添加事件
+    oAddRight.onclick = function () {
+        addNum();
+    };
+    oAddLeft.onclick = function () {
+        addNum("left");
+    };
+
+    // 对应的点击删除事件
+    oRemoveLeft.onclick = function () {
+        removeNum("left");
+    };
+    oRemoveRight.onclick = function () {
+        removeNum("right");
+    };
+
+    // 点击删除自身
+    oShowPanel.onclick = function (e) {
+        var event = e || window.event;
+        if (event.target.nodeName.toLowerCase() === "span") {
+            var confirmed = confirm("您确定要删除" + event.target.innerText + "吗？");
+            if (confirmed) {
+                oShowPanel.removeChild(event.target);
+            }
+        }
+
+    };
+//    排序
+
+
+    oSort.onclick=function () {
+    // TODO: 排序待完善
+    }
+</script>
+</body>
+</html>
