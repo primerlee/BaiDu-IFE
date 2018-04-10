@@ -32,62 +32,57 @@ input:focus{
     transition: all 1s;
 }
 
-.box{
+.banner{
     width: 400px;
     height: 200px;
     position: relative;
     margin: 20px auto;
+    overflow: hidden;
 }
-.box .slider{
+.slider,
+.slider li{
+    width: 100%;
+    height: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
 }
-.box .slider .item{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-.box .slider .item:nth-child(1){
+#item1{
     background: red;
 }
-.box .slider .item:nth-child(2){
+#item2{
     background: green;
 }
-.box .slider .item:nth-child(3){
+#item3{
     background: blue;
 }
-/*点*/
-.box .sign{
+
+.point{
     position: absolute;
-    right: 10px;
     bottom: 10px;
+    right: 10px;
+    z-index: 10;
 }
-.box .sign a{
+.point a{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: #000;
     color: #fff;
-    line-height: 20px;
     text-align: center;
+    line-height: 30px;
     text-decoration: none;
 }
-
-.box .sign a:target{
-    z-index: 200;
-    left: -100%;
-    animation: 1s show linear;
+li:target{
+    z-index: 10;
+    animation: linear show 2s;
 }
+
 @keyframes show {
-    0%{
+    from{
         left: 0;
     }
-    100%{
+    to{
         left: -100%;
     }
 }
